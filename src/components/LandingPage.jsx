@@ -7,6 +7,8 @@ import bg1 from '../assets/bg1.webp'
 import card1 from '../assets/card1.webp'
 import card2 from '../assets/card2.webp'
 import card4 from '../assets/card4.webp'
+import TestimonialPage from './Testimonials';
+import Footer from './Footer';
 
 const LandingPage = () => {
   return (
@@ -76,12 +78,8 @@ const LandingPage = () => {
     </div>
   </div>
 </section>
-
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6 text-center">
-        <p>&copy; 2024 Chauhan & Sons. All Rights Reserved.</p>
-      </footer>
+<TestimonialPage/>
+<Footer/>
     </div>
   );
 };

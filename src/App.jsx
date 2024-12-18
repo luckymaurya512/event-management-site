@@ -7,6 +7,7 @@ import LoginPage from './components/LoginPage';
 import EventDetailsPage from './components/EventDetailsPage';
 import Navbar from './components/Navbar';
 import EventDetailsDisplayPage from './components/EventDetailsDisplayPage';
+import ContactUsPage from './components/ContactUs';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/event-details" element={<EventDetailsPage />} />
         <Route path="/event-details-display" element={< EventDetailsDisplayPage/>} />
+        <Route path="/contact" element={< ContactUsPage/>} />
       </Routes>
     </Router>
   );

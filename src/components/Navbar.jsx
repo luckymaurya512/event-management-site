@@ -27,7 +27,7 @@ const Navbar = () => {
               <a href="#gallery" className="hover:text-gray-300">Gallery</a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-gray-300">Contact Us</a>
+              <a href="/contact" className="hover:text-gray-300">Contact Us</a>
             </li>
             {/* Login Button */}
             <li>
